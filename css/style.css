@@ -47,3 +47,25 @@ body
     75%  {background-color: yellow; left:0px; top:200px;}
     100% {background-color:crimson; left:0px; top:0px;}
   }
+#anim
+{
+  width: 50%;
+  float: left;
+}
+#trans
+{
+  width: 50%;
+  float: left;
+}
+#tran1
+{
+  width: 40px;
+  height: 40px;
+  background: red;
+  transition: width 2s;
+  transition: 2s;
+}
+#tran1:hover
+{
+  width: 250px;
+}
