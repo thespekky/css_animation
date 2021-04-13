@@ -86,7 +86,7 @@ body
   width: 60px;
   height: 60px;
   background: red;
-  transition: width 3s;
+  transition: width 2s;
   transition-timing-function: linear;
 }
 #tran3:hover
