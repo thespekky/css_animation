@@ -63,9 +63,21 @@ body
   height: 40px;
   background: red;
   transition: width 2s;
-  transition: 2s;
+
 }
 #tran1:hover
+{
+  width: 250px;
+}
+#tran2
+{
+  width: 60px;
+  height: 60px;
+  background: red;
+  transition: width 3s;
+  transition-timing-function: ease-in-out;
+}
+#tran2:hover
 {
   width: 250px;
 }
