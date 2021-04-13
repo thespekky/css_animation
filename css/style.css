@@ -49,11 +49,13 @@ body
   }
 #anim
 {
+  background-color: silver;
   width: 50%;
   float: left;
 }
 #trans
 {
+  background-color: silver;
   width: 50%;
   float: left;
 }
@@ -81,12 +83,16 @@ body
 {
   width: 250px;
 }
-#tran3
+div
 {
   width: 60px;
   height: 60px;
   background: red;
   transition: width 2s;
+}
+#tran3
+{
+
   transition-timing-function: linear;
 }
 #tran3:hover
