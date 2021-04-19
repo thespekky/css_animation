@@ -120,17 +120,26 @@ div
   color: darkblue;
   transition: width 2s,height 2s,transform 2s;
 }
+
 #tran5:hover
 {
-  transform: rotate(180deg); 
+  transform: rotateY(200deg);
   color: black;
 }
 #tran6
 {
-  visibility: hidden;
   height: 200px;
   width: 200px;
   transition-delay: 0.4s;
-  color:darkolivegreen;
+  background-color:darkolivegreen;
   transition: width 2s,height 2s,transform 2s;
+  transition-delay: 1s;
+}
+#tran6:hover
+{
+  width: 100px;
+  height: 100px;
+  transition-duration: 4;
+  transform: rotateZ(90deg);
+
 }
