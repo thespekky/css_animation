@@ -112,3 +112,25 @@ div
   height: 80px;
   transform: rotate(180deg);
 }
+#tran5
+{
+  height: 80px;
+  width: 80px;
+  transition-delay: 0.4s;
+  color: darkblue;
+  transition: width 2s,height 2s,transform 2s;
+}
+#tran5:hover
+{
+  transform: rotate(180deg); 
+  color: black;
+}
+#tran6
+{
+  visibility: hidden;
+  height: 200px;
+  width: 200px;
+  transition-delay: 0.4s;
+  color:darkolivegreen;
+  transition: width 2s,height 2s,transform 2s;
+}
